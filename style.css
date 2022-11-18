@@ -1,0 +1,284 @@
+body {
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-image: url(IMG/background.jpg);
+    background-repeat: no-repeat;
+    /* background-color: #000; */
+    background-size: cover;
+    /* overflow:auto; */
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgb(27, 27, 27);
+}
+
+.logo {
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+.nav {
+    background-color: rgb(38, 38, 38);
+    padding: 5px;
+    text-align: center;
+}
+
+.nav-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #BF5FE3;
+}
+
+.nav-list li a:hover {
+    color: #fff;
+}
+
+.game-editions {
+    background-color: rgb(27, 27, 27);
+    padding: 20px 10px;
+    margin-top: 20px;
+    margin-right: 85%;
+    color: #fff;
+}
+
+.box1 {
+    outline: 3px solid rgb(38, 38, 38);
+    max-width: 200px;
+    max-height: 500px;
+    background-color: rgb(27, 27, 27);
+    height: 375px;
+    width: 200px;
+    text-align: center;
+    overflow: hidden;
+    /* margin-left: 100px; */
+}
+
+.box1 img {
+    width: 200px;
+    height: 200px;
+    transition: all 1.5s ease;
+}
+
+.box1 img:hover {
+    /* transform: scale(1.2); */
+    transform: translate(0, -13px);
+
+}
+
+.box1 h2,
+h3 {
+    color: #fff;
+}
+
+.box1 button {
+    /* color: bisque; */
+    background-color: rgb(255, 255, 255);
+}
+
+.box1 button:hover {
+    cursor: pointer;
+    background-color: bisque;
+}
+
+.box2 {
+    outline: 3px solid goldenrod;
+    max-width: 200px;
+    max-height: 500px;
+    background-color: rgb(27, 27, 27);
+    height: 375px;
+    width: 200px;
+    text-align: center;
+    overflow: hidden;
+    /* margin-left: 100px; */
+}
+
+.box2 img {
+    width: 200px;
+    height: 200px;
+    transition: all 1.5s ease;
+}
+
+.box2 img:hover {
+    /* transform: scale(1.2); */
+    transform: translate(0, -13px);
+}
+
+.box2 h2,
+h3 {
+    color: #fff;
+}
+
+.box2 button {
+    /* color: bisque; */
+    background-color: rgb(255, 255, 255);
+}
+
+.box2 button:hover {
+    cursor: pointer;
+    background-color: bisque;
+}
+
+.box3 {
+    outline: 3px solid rgb(1, 51, 116);
+    max-width: 200px;
+    max-height: 500px;
+    background-color: rgb(27, 27, 27);
+    height: 375px;
+    width: 200px;
+    text-align: center;
+    overflow: hidden;
+    /* margin-left: 100px; */
+}
+
+.box3 img {
+    width: 200px;
+    height: 200px;
+    transition: all 1.5s ease;
+}
+
+.box3 img:hover {
+    /* transform: scale(1.2); */
+    transform: translate(0, -60px);
+}
+
+.box3 h2,
+h3 {
+    color: #fff;
+}
+
+.box3 button {
+    /* color: bisque; */
+    background-color: rgb(255, 255, 255);
+}
+
+.box3 button:hover {
+    cursor: pointer;
+    background-color: bisque;
+}
+
+.product-boxs {
+    text-align: center;
+}
+
+.product-boxs div {
+    display: inline-block;
+    margin: 75px 150px;
+}
+
+.about {
+    color: #fff;
+    background-color: rgb(27, 27, 27);
+    padding: 20px 10px;
+    margin-right: 80%;
+}
+
+.description p {
+    position: relative;
+    background-color: rgb(27, 27, 27);
+    width: 40%;
+    height: 150px;
+    text-align: left;
+    color: #fff;
+    margin-top: 0;
+    margin-left: 10px;
+    transition: all 1.5s ease;
+}
+
+.description p::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    left: -10px;
+}
+
+.description p:hover {
+    transform: skewX(-10deg);
+    margin-left: 20px;
+}
+
+.email {
+    background-image: url(IMG/mail\ bar.jpg);
+    background-repeat: no-repeat;
+    height: 290px;
+    width: 100%px;
+    max-width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.email form {
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 0;
+    margin-right: -120px;
+}
+
+.email input {
+    width: 323px;
+    height: 30px;
+    margin: 0px 485px;
+    outline: none;
+    border: 3px solid #000;
+}
+
+.email input:focus {
+    outline: none;
+    border: 3px solid #EE95E0;
+}
+
+.email button {
+    width: 90px;
+    height: 39px;
+    background-color: #6b3280;
+    margin: 0 430px;
+}
+
+.email button:hover {
+    cursor: pointer;
+    background-color: #EE95E0;
+}
+
+footer {
+    background-color: rgb(27, 27, 27);
+    padding: 0;
+    margin: 0;
+}
+
+footer h1 {
+    color: #fff;
+    margin: 0 0px;
+    padding-left: 10px;
+}
+
+footer ul {
+    margin: 0 0px;
+    padding-left: 10px;
+}
+
+footer li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+footer li,
+a {
+    text-decoration: none;
+}
+
+footer li,
+a:hover {
+    color: #fff;
+}
